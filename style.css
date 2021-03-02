@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-size: 2rem;
+}
+
+span{
+    font-size: 2.6rem;
+    text-decoration: underline dotted black;
+}
+
+.border{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline double black;
+}
+
+#input{
+    display: inline-block;
+}
+
+#add, #update{
+    width: 300px;
+    border: 2px solid black;
+    padding: 1.5rem;
+    margin: 5rem;
+}
+
+input[type='submit']{
+    display: block;
+    padding: .5rem;
+    background-color: #525252;
+    color: #c7c7c7;
+    margin: 2rem auto;
+}
+
+#delete{
+    width: 300px;
+    border: 2px solid black;
+    padding: 1.5rem;
+    margin: 5rem;
+}
+
+p{
+    text-align: center;
+    text-decoration: underline dotted #686868;
+    margin-bottom: .5rem;
+}
+
+a{
+    border: 1px solid black;
+    text-decoration: none;
+    padding: .5rem;
+    background-color: #525252;
+    color: #c7c7c7;
+    margin-left: 5rem;
+}
+
+#eleves{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5rem;
+}
+
+#show{
+    display: inline-block;
+    margin-left: 15rem;
+    margin-top: 8rem;
+    position: absolute;
+}
